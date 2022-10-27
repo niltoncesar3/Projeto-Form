@@ -17,7 +17,7 @@ body {
 .container {
   background-color: #fafafa;
   border-radius: 10px;
-  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
   width: 400px;
   max-width: 100%;
   overflow: hidden;
@@ -68,21 +68,15 @@ body {
 
 .form button {
   background-color: #fc00ff;
-  border: 2px solid #fc00ff; 
+  border: 2px solid #fc00ff;
   color: #fff;
   font-size: 14px;
   width: 100%;
   border-radius: 10px;
   padding: 10px;
-  cursor: pointer;
-}
-
-.form button:hover {
-  background-color: #f165f3;
 }
 
 /* Error and Success */
-
 .form-control.success input {
   border-color: #2ecc71;
 }
